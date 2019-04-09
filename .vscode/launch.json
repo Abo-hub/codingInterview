@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GetAndRemoveLastElement",
+            "request": "launch",
+            "mainClass": "com.sun.stackandqueue.getandremovelastelement.GetAndRemoveLastElement",
+            "projectName": "codingInterview_a3818065"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TwoStackQueue",
             "request": "launch",
             "mainClass": "com.sun.stackandqueue.TwoStackQueue.TwoStackQueue",
