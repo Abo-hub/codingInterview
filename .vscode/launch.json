@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoStackQueue",
+            "request": "launch",
+            "mainClass": "com.sun.stackandqueue.TwoStackQueue.TwoStackQueue",
+            "projectName": "codingInterview_a3818065"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GetMinStack2",
+            "request": "launch",
+            "mainClass": "com.sun.stack.GetMinStack.GetMinStack2",
+            "projectName": "codingInterview_a3818065"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GetMinStack1",
+            "request": "launch",
+            "mainClass": "com.sun.stack.GetMinStack.GetMinStack1",
+            "projectName": "codingInterview_a3818065"
+        }
+    ]
+}
