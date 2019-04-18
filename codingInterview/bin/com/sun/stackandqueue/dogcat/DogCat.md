@@ -42,6 +42,13 @@ public class Cat extends Pet {
 - 用户可以调用isCatEmpty方法，检查队列中是否有cat类的实例；
 
 ## 【解答】
+这里指出几种常见的设计错误：
+- cat队列只放cat实例，dog队列只放dog实例，再用一个总队列放所有的实例
+    - 错误原因：cat、dog和总队列的更新问题
+- 用哈希表，key表示一个cat实例或dog实例，value表示这个实例进队列的次序。
+    - 错误原因：不能支持一个实例多次进队列的功能需求，因为哈希表的key只能对应一个value值
+- 将用户原有的cat或dog类改写，加一个计数项来表示某一个实例进队列的时间。
+    - 错误原因：不能铲子改变用户的类结构。
 本题实现将不同的实例盖上时间戳的方法，但是又不能改变用户本身的类，所以定义一个新的类，具体实现请参考如下的PerEnterQueue类
 ```java
 public class PetEnterQueue{
