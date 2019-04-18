@@ -29,7 +29,7 @@ public class TwoStackQueue {
         if(stackPop.empty()&&stackPush.empty()){
             throw new RuntimeException("Queue is empty");
         }
-        pushToPop();
+        pushToPop();        
         return stackPop.pop();
     }
 
