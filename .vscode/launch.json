@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RemoveLastKthNode",
+            "request": "launch",
+            "mainClass": "com.sun.LinkedList.RemoveLastKthNode.RemoveLastKthNode",
+            "projectName": "codingInterview"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintCommonPart",
+            "request": "launch",
+            "mainClass": "com.sun.LinkedList.PrintCommonPart.PrintCommonPart",
+            "projectName": "codingInterview"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RightWay",
+            "request": "launch",
+            "mainClass": "com.sun.stackandqueue.RightWay.RightWay",
+            "projectName": "codingInterview"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HanoiProblem1",
+            "request": "launch",
+            "mainClass": "com.sun.stackandqueue.hanoiProblem.HanoiProblem1",
+            "projectName": "codingInterview"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SortStackByStack",
             "request": "launch",
             "mainClass": "com.sun.stackandqueue.SortStackByStack.SortStackByStack",

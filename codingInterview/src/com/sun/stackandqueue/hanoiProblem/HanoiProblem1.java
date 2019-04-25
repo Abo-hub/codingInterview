@@ -1,7 +1,5 @@
 package com.sun.stackandqueue.hanoiProblem;
 
-import java.text.Normalizer.Form;
-
 public class HanoiProblem1 {
 
     public int hanoiProblem1(int num, String left, String mid, String right) {
