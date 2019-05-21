@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RemoveMidNode",
+            "request": "launch",
+            "mainClass": "com.sun.LinkedList.RemoveMidNode.RemoveMidNode",
+            "projectName": "codingInterview"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RemoveLastKthNode",
             "request": "launch",
             "mainClass": "com.sun.LinkedList.RemoveLastKthNode.RemoveLastKthNode",

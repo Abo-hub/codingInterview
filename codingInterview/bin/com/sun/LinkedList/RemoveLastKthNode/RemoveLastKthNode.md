@@ -73,3 +73,7 @@ public class RemoveLastKthNode {
 }
 
 ```
+对于双链表的调整，几乎于单链表的处理方式一样，注意last指针的重连即可。具体操作请参考下面RemoveLastKthNode2方法：
+```java
+
+```

@@ -44,7 +44,7 @@ public class RemoveLastKthNode {
 
         RemoveLastKthNode rln = new RemoveLastKthNode();
 
-        rln.removeLastKthNode(node1, 5);
+        rln.removeLastKthNode(node1, 2);
         Node tNode = node1;
         while (tNode != null) {
             System.out.println(tNode.value);
